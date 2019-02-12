@@ -1,0 +1,30 @@
+body {
+    background-color: darkslategrey; color: azure; font-size: 16pt; font-family:arial;
+}
+h1 {
+    color: coral;
+}
+a {
+    text-decoration:none; color:white;
+}
+#intro {
+    font-size: 1.3em;
+}
+div[id$="two"] {
+    width:700px;
+}
+div[id$="two"] span {
+    width:300px; float:left; margin-left:30px;
+}
+div[id$="two"] p {
+    width:300px; text-align:center; margin-top:5px;
+}
+div[id$="two"] img {
+    display:block; margin:0px auto 0px auto;
+}
+#ideas { 
+    clear:both;
+}
+.colorful {
+    color: orange;
+}
