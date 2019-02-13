@@ -59,6 +59,14 @@ span.text-element.img-caption {
   font-size: 1.0625em;
 }
 
+span.text-element.img-caption ul {
+  list-style-position:outside;
+}
+
+span.text-element.img-caption li {
+  margin:10px;
+}
+
 span.text-element span.caption-title {
   background-color: transparent;
   color: #fff;
@@ -441,7 +449,7 @@ body > .row > [class*='coffee-span-'].gallery-column {
        -o-flex-direction: column;
           flex-direction: column;
   margin-top: 0;
-  padding: 12.5em 3.125em;
+  padding: 50px;
   max-height: none;
   height: auto;
 
