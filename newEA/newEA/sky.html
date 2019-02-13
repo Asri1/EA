@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="generator" content="Responsive Site Designer 1.5.1390">
+  <title>Sky</title>
+  <script>document.createElement( "picture" );</script>
+  <script src="js/picturefill.min.js" class="picturefill" async="async"></script>
+  <link rel="stylesheet" href="css/coffeegrinder.min.css">
+  <link rel="stylesheet" href="css/wireframe-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,b">
+<!-- SMOOTH SCROLL -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<!-- End of SMOOTH SCROLL -->
+
+<style>
+.gallery-img{ cursor: s-resize; pointer; }
+</style>
+</head>
+
+<body>
+  <div class="row gallery-row">
+    <div class="coffee-span-12 gallery-column"><a href="index.html" class="responsive-picture close-gallery-bt"><picture><img alt="Close gallery" srcset="./close-gallery-bt.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></picture></a>
+      <h1 class="gallery-heading">Project Blog</h1>\
+    </div>
+    <div class="coffee-span-12 gallery-column" id="sky-2"><a href="#sky-3" class="responsive-picture gallery-img"><picture><img alt="Placeholder Picture" srcset="img\24.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></picture></a>
+      <span class="text-element img-caption"><span class="caption-title">Our Journey of this Project.</span> We received the micro hydro generators and flow rate sensors on 7/1/19.  Planning to test on 8/1/19, with aquarium pumps, we poured water into the generator and it spun very little, generating only 200mv
+. On 9/1/19, Kendrick went to buy pipes to connect the generator.  This sits the water storage 1.5m higher than the generator. With the pipes connected, 1l of water generated 0.7v. Needing a storage system, Kok peng went to buy tupperware box from daiso to hold ideally 5ls of water. On 10/1/19, Yuan Pin went to get a valve so we could attach a servo motor to control water flow. Unfortunately, where wasnt any valve at the shop so he bought a stopcock. It was hard to attach a servo to it so Kendrick set of to build a valve by 3d printing a stopper fitted to a male cap. After 1 week of rushing side work, we continued on our project on 19/1/19, by getting the container. The plunger system was attached to the container together with a ultrasonic sensor to detect if it was going to overflow. Another week of other school project work made us continue working on 29/1/19. Kendrick printed a servo mount to be attached to the plunger stick. The first print was too short and the second print being taller delaminated easily when pulled. The third print had a higher infill and the servo was attached to the plunger stick well.  Yuan pin programmed the code to an arduino, where when the distance  below 4cm is triggered by the ultrasonic sensor, the servo will rise and the plunger will be lifted letting water up. Innitially, we intended that a lead acid cell would be charged. But due to the generator generating little charge,  we decided that a power bank would be a better example. Kendrick salvaged a powerbank he had that had 2 cells rusted. 18650 connectors was printed to connect to the powerbank easily, However, it was sketchy as power wasnt always supplied to the powerbank .  On 1/2/19, a series 18650 holder was gotten from Mr Rodney and was connected to the powerbank. The power bank input is 3.7-5 Vs so a 5V stepdown converter was soldered. This made alot of energy loss and thus was scrapped. The series 18650 holder was converted to parallel to make it work. When the generator was powered, it proved that the power bank was charging.
+ Our Project was then mechanically done and we started testing. Our container turned out to have leaks so it was sealed by epoxying the male pipe connector to the box. Asri got a beaker so we could measure the amount we put in to the container. The flow rate meter is connected to another arduino and Asri programmed it. We tested firstly with the flow rate meter only, then with the generator and flow rate meter and collected the readings. We conducted it 3 times to ensure accuracy. When we conducted the experiment, we found it hard to topup our container as it was higher up, which resulted in some spillage. So the next day, Asri bought a funnel and we attached it to our container to reduce spillage while topping up.</span>
+    </div>
+  <nav class="row gallery-nav-row" id="sky-nav">
+    <div class="coffee-span-6 gallery-nav"><a class="link-button gallery-nav-link" href="index.html#portfolio">Portfolio<br></a>
+    </div>
+    <div class="coffee-span-6 gallery-nav urban"><a class="link-button gallery-nav-link" href="urban.html">Urban</a>
+    </div>
+  </nav>
+</body>
+
+</html>

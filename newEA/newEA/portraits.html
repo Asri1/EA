@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="generator" content="Responsive Site Designer 1.5.1390">
+  <title>Portraits</title>
+  <script>document.createElement( "picture" );</script>
+  <script src="js/picturefill.min.js" class="picturefill" async="async"></script>
+  <link rel="stylesheet" href="css/coffeegrinder.min.css">
+  <link rel="stylesheet" href="css/wireframe-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,b">
+<!-- SMOOTH SCROLL -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<!-- End of SMOOTH SCROLL -->
+
+<style>
+.gallery-img{ cursor: s-resize; pointer; }
+</style>
+</head>
+
+<body>
+  <div class="row gallery-row">
+    <div class="coffee-span-12 gallery-column"><a href="index.html" class="responsive-picture close-gallery-bt"><picture><img alt="Close gallery" srcset="./close-gallery-bt.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></picture></a>
+      <h1 class="gallery-heading">Project specifications and constructions</h1>
+      <span class="text-element gallery-author">by Charlie</span><span><img src= "img\25.jpg">Our final product.</span></span>
+    </div>
+    <div class="coffee-span-12 gallery-column" id="portraits-2"><a href="#portraits-3" class="responsive-picture gallery-img portrait"><picture><img alt="Placeholder Picture" src="img/holder.png"></picture></a>
+      <span class="text-element img-caption"><span class="caption-title">Battery holder.</span> A multi pupose holder for the Battery.</span>
+    </div>
+    <div class="coffee-span-12 gallery-column" id="portraits-4"><a href="#portraits-5" class="responsive-picture gallery-img"><picture><img alt="Placeholder Picture" srcset="img/plunja.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></picture></a>
+      <span class="text-element img-caption"><span class="caption-title">Plunger.</span> A stopper to make our tap automated.</span>
+    </div>
+    <div class="coffee-span-12 gallery-column" id="portraits-4"><a href="#portraits-5" class="responsive-picture gallery-img portrait"><picture><img alt="Placeholder Picture" srcset="img/servo.png" src="img/servo.png"></picture></a>
+      <span class="text-element img-caption"><span class="caption-title">Holder for the servo.</span> To place the servo in a place where it can bring up and down the plunger.</span>
+    </div>
+    <div class="coffee-span-12 gallery-column" id="portraits-5"><a href="#portraits-6" class="responsive-picture gallery-img portrait"><picture><img alt="Placeholder Picture" srcset="img/bracket.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></picture></a>
+      <span class="text-element img-caption"><span class="caption-title">Bracket.</span> To attach the stick to the servo.</span>
+    </div>
+    <div class="coffee-span-12 gallery-column" id="portraits-6"><a href="#portraits-7" class="responsive-picture gallery-img portrait"><picture><img alt="Placeholder Picture" srcset="img/spacer.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></picture></a>
+      <span class="text-element img-caption"><span class="caption-title">Spacer.</span> Spacer for the pvc pipe.</span>
+    </div>
+    <div class="coffee-span-12 gallery-column" id="portraits-7"><a href="#portraits-nav" class="responsive-picture gallery-img"><picture><img alt="Placeholder Picture" srcset="./Portraits/photo-1446511437394-36cdff3ae1b3.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></picture></a>
+      <span class="text-element img-caption"><span class="caption-title">Image title.</span> Image decriptipsum vestibulum et dolor ut, tempor venenatis justo.</span>
+    </div>
+  </div>
+  <nav class="row gallery-nav-row" id="portraits-nav">
+    <div class="coffee-span-6 gallery-nav"><a class="link-button gallery-nav-link" href="index.html#portfolio">Portfolio<br></a>
+    </div>
+    <div class="coffee-span-6 gallery-nav sky"><a class="link-button gallery-nav-link" href="sky.html">Sky</a>
+    </div>
+  </nav>
+</body>
+
+</html>
